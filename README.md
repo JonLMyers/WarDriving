@@ -9,11 +9,20 @@ This wardriving project and my personal intentions varied greatly from those tha
 # The Fault in my WEP?
 Non-Technical Summary: WEP is a terrible protocol for encryption and should not be used as it is easily crackable.
 
-WEP (Wired Equivalent Privacy) was introduced with the original release of the 802.11 networking standard.  In the beginning WEP used both a 64 and 128 bit key for encryption.  Standard 64 bit WEP utilises the concatenation of a 24 bit initialization vector and a 40 bit key to form the complete key.  This 24 bit initialization vector was the downfall of WEP and is found in all of its versions.  In 2001 cryptographers discovered that the initialization vector was considered strongly non random due to the fact that 24 bits were not enough to prevent repetition a network.  If someone was to process enough traffic on a network they could determine the key for the entire network and have unlimited access to all traffic.  This process is now easily automated and free software is available which has the capabilities of recovering the key in mere minutes. 
+WEP (Wired Equivalent Privacy) was introduced with the original release of the 802.11 networking standard.  In the beginning WEP used both a 64 and 128 bit key for encryption.  Standard 64 bit WEP utilises the concatenation of a 24 bit initialization vector and a 40 bit key to form the complete key.  This 24 bit initialization vector was the downfall of WEP and is found in all of its versions.  In 2001 cryptographers discovered that the initialization vector was considered strongly non random due to the fact that 24 bits were not enough to prevent repetition on a network.  If someone was to process enough traffic on a network they could determine the key for the entire network and have unlimited access to all traffic.  This process is now easily automated and free software which has the capabilities of recovering the key in mere minutes is available to everyone. 
 
 # Equipment Used
-https://github.com/Aciid/misc/blob/master/netxml2kml.py
+Hardware:
+  Globalsat ‑ BU‑353S4 ‑ GPS receiver module
+  TP-LINK TL-WN722N Wireless N150 High Gain USB Adapter
+  Dell Inspiron Laptop with linux OS.
+  
+Software:
+  Kismet - https://www.kismetwireless.net/
+  Aciid's python script - https://github.com/Aciid/misc/blob/master/netxml2kml.py
 
+Process: 
+  The setup consited of installing all of the software and drivers for the peripherals and altering kismet's configuration file to allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst and kismet gathered and stored the GPS coordinates of each individual network.    
 # Data
 
 # How to upgrade to WPA2 
