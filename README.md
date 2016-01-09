@@ -1,4 +1,4 @@
-# WarDriving
+# Wardriving
 Objective: Inform the Amherst community about the dangers of using outdated Wi-Fi encrpytion techniques.
 
 # What is Wardriving?
