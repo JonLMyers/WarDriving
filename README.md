@@ -22,7 +22,7 @@ Software:
   Aciid's python script - https://github.com/Aciid/misc/blob/master/netxml2kml.py
 
 Process: 
-  The setup consited of installing all of the software and drivers for the peripherals and altering kismet's configuration file to allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst and kismet gathered and stored the GPS coordinates of each individual network.    
+  The setup consited of installing all of the software and drivers for the peripherals and altering kismet's configuration file to      allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
 # Data
 
 # How to upgrade to WPA2 
