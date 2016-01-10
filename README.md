@@ -1,5 +1,11 @@
 # Wardriving
 Objective: Inform the Amherst community about the dangers of using outdated Wi-Fi encryption techniques.
+Table of Contents:
+1.) What is Wardriving?
+2.) The Fault in my WEP?
+3.) Equipment Used
+4.) Data Examples
+5.) How to Upgrade Your Encryption Method
 
 # What is Wardriving?
 Wardriving is the act of searching for and often mapping wireless network access points with a mobile device while driving in a vehicle. These access points are what your wireless device connects to when seeking to gain access to the internet and your network.  Once connected, you device will send information to this access point over Wi-Fi signals.  Unfortunately anyone who desires can easily observe this traffic without any special equipment or having access to your network.  This means that anyone could reconstruct your network traffic and view all the information you are sending over Wi-Fi if your traffic is not properly encrypted.  Malicious wardrivers take advantage of this by scouting out and mapping entire neighborhoods looking for vulnerable networks to prey on.  Once they have a selection of networks they can access them and perform actions such as stealing personal and private information or distributing child pornography.
@@ -23,6 +29,7 @@ Software:
 
 Process: 
   The setup consited of installing all of the software and drivers for the peripherals and altering kismet's configuration file to      allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
+  
 # Data Examples
 This image contains all of the networks using WEP as of 11/25/2015
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220051/91a6cf1a-b72b-11e5-8257-871cff9f63de.jpg)
@@ -32,4 +39,14 @@ This image contains all of the previous networks and newly explored areas as of 
 
 To view all of the data in depth, please download the provided .kml and .kmz files and open them with Google Earth.
 
-# How to upgrade to WPA2 
+# How to Upgrade Your Encryption Method 
+
+Login to your router using a device that is directly wired to it. (Example: A laptop/desktop using an ethernet cord.)
+To get to the login page you need to type your routers default ip address(Typically 192.168.0.1 or 192.168.0.1) into your browsers    search bar.
+  
+Upon arriving on a login screen like the image below, you need to enter your routers login credentials.  Oftentime's these credentials are still default.  This is also a major security issue because anyone could easily log onto your router and change any setting they desire.  You can find your routers default credentials using this website: http://www.routerpasswords.com/
+
+You will then need to navigate around your routers settings until you find the option to change encryption/security levels.  This will most likely be under the basic or advanced settings of your wireless tab.
+
+Once you have found this setting, make sure that you change it from WEP to either WPA-PSK, or WPA2-PSK if it is available.
+Now is also a great time to change your router's login credentials if they are still set to default. 
