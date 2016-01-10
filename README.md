@@ -1,5 +1,6 @@
 # Wardriving
-Objective: Inform the Amherst community about the dangers of using outdated Wi-Fi encryption techniques.
+**Objective: Inform the Amherst community about the dangers of using outdated Wi-Fi encryption techniques.**
+
 Table of Contents:
 
 1.) What is Wardriving?
@@ -18,21 +19,21 @@ Wardriving is the act of searching for and often mapping wireless network access
 This wardriving project and my personal intentions varied greatly from those that are held by malicious wardrivers.  Rather than mapping networks for future criminal activity, I gathered data to see how many home and small business wireless networks were not using encryption or still using WEP (Wired Equivalent Privacy - An encryption method that is outdated and ineffective).  I also refused to connect to anyone's private wireless network because connecting to non-public networks without permission is illegal.  
 
 # The Fault in my WEP?
-Non-Technical Summary: WEP is a terrible protocol for encryption and should not be used as it is easily crackable.
+**Non-Technical Summary: WEP is a terrible protocol for encryption and should not be used as it is easily crackable.**
 
 WEP (Wired Equivalent Privacy) was introduced with the original release of the 802.11 networking standard.  In the beginning WEP used both a 64 and 128 bit key for encryption.  Standard 64 bit WEP utilises the concatenation of a 24 bit initialization vector and a 40 bit key to form the complete key.  This 24 bit initialization vector was the downfall of WEP and is found in all of its versions.  In 2001 cryptographers discovered that the initialization vector was considered strongly non random due to the fact that 24 bits were not enough to prevent repetition on a network.  If someone was to process enough traffic on a network they could determine the key for the entire network and have unlimited access to all traffic.  This process is now easily automated and free software which has the capabilities of recovering the key in mere minutes is available to everyone. 
 
 # Equipment Used
-Hardware:
+**Hardware:**
   Globalsat ‑ BU‑353S4 ‑ GPS receiver module
   TP-LINK TL-WN722N Wireless N150 High Gain USB Adapter
   Dell Inspiron Laptop with linux OS.
   
-Software:
+**Software:**
   Kismet - https://www.kismetwireless.net/
   Aciid's python script - https://github.com/Aciid/misc/blob/master/netxml2kml.py
 
-Process: 
+**Process:** 
   The setup consisted of installing all of the software and drivers for the peripherals and altering kismet's configuration file to     allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
   
 # Data Examples
