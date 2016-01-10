@@ -47,10 +47,11 @@ To view all of the data in depth, please download the provided .kml and .kmz fil
 # How to Upgrade Your Encryption Method 
 
 Login to your router using a device that is directly wired to it. (Example: A laptop/desktop using an ethernet cord.)
-To get to the login page you need to type your routers default ip address(Typically 192.168.0.1 or 192.168.0.1) into your browsers    search bar.
+To get to the login page you need to type your routers default ip address(Typically 192.168.0.1 or 192.168.0.1) into your browser's   search bar.
+
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12223756/786954c8-b7ad-11e5-93fa-c0aa55d61232.png)
 
-Upon arriving on a login screen like the image below, you need to enter your routers login credentials.  Oftentime's these credentials are still default.  This is also a major security issue because anyone could easily log onto your router and change any setting they desire.  You can find your routers default credentials using this website: http://www.routerpasswords.com/
+Upon arriving on a login screen like the image below you must enter your router's login credentials.  Oftentimes these credentials are still set to default.  This is also a major security issue because anyone could easily log onto your router and change any setting they desire.  You can find your router's default credentials using this website: http://www.routerpasswords.com/
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12223755/75f9b16a-b7ad-11e5-8b29-0a18539273df.png)
 
 You will then need to navigate around your routers settings until you find the option to change encryption/security levels.  This will most likely be under the basic or advanced settings of your wireless tab.
