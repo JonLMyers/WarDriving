@@ -34,6 +34,7 @@ WEP (Wired Equivalent Privacy) was introduced with the original release of the 8
   - Aciid's python script - https://github.com/Aciid/misc/blob/master/netxml2kml.py
 
 **Process:** 
+
   The setup consisted of installing all of the software and drivers for the peripherals and altering kismet's configuration file to     allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
   
 # Data Examples
