@@ -1,10 +1,15 @@
 # Wardriving
 Objective: Inform the Amherst community about the dangers of using outdated Wi-Fi encryption techniques.
 Table of Contents:
+
 1.) What is Wardriving?
+
 2.) The Fault in my WEP?
+
 3.) Equipment Used
+
 4.) Data Examples
+
 5.) How to Upgrade Your Encryption Method
 
 # What is Wardriving?
