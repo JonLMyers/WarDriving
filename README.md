@@ -33,7 +33,7 @@ Software:
   Aciid's python script - https://github.com/Aciid/misc/blob/master/netxml2kml.py
 
 Process: 
-  The setup consisted of installing all of the software and drivers for the peripherals and altering kismet's configuration file to      allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
+  The setup consisted of installing all of the software and drivers for the peripherals and altering kismet's configuration file to     allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
   
 # Data Examples
 This image contains all of the networks using WEP as of 11/25/2015
@@ -57,6 +57,6 @@ Upon arriving on a login screen like the image below you must enter your router'
 You will then need to navigate around your router's settings until you find the option to change encryption/security levels.  This will most likely be under the basic or advanced settings of your wireless tab.
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12223758/7cf4b384-b7ad-11e5-8cec-505a6cfe9e52.png)
 
-Once you have found this setting, make sure that you change it from WEP to either WPA-PSK, or WPA2-PSK if it is available.
+Once you have found this setting make sure that you change it from WEP to either WPA-PSK or WPA2-PSK if it is available.
 Now is also a great time to change your router's login credentials if they are still set to default. 
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12223757/7adac4da-b7ad-11e5-9f69-e9365560832b.png)
