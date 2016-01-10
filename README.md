@@ -3,15 +3,15 @@
 
 Table of Contents:
 
-1.) What is Wardriving?
+- What is Wardriving?
 
-2.) The Fault in my WEP?
+- The Fault in my WEP?
 
-3.) Equipment Used
+- Equipment Used
 
-4.) Data Examples
+- Data Examples
 
-5.) How to Upgrade Your Encryption Method
+- How to Upgrade Your Encryption Method
 
 # What is Wardriving?
 Wardriving is the act of searching for and often mapping wireless network access points with a mobile device while driving in a vehicle. These access points are what your wireless device connects to when seeking to gain access to the internet and your network.  Once connected, you device will send information to this access point over Wi-Fi signals.  Unfortunately anyone who desires can easily observe this traffic without any special equipment or having access to your network.  This means that anyone could reconstruct your network traffic and view all the information you are sending over Wi-Fi if your traffic is not properly encrypted.  Malicious wardrivers take advantage of this by scouting out and mapping entire neighborhoods looking for vulnerable networks to prey on.  Once they have a selection of networks they can access them and perform actions such as stealing personal and private information or distributing child pornography.
