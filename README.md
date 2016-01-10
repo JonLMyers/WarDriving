@@ -24,7 +24,10 @@ Software:
 Process: 
   The setup consited of installing all of the software and drivers for the peripherals and altering kismet's configuration file to      allow the network adapter/GPS.  After this setup was complete I simply drove around Amherst while kismet gathered and stored the GPS   coordinates of each individual network.  After two sessions of this I utilised Aciid's python script to turn the data into files      that can be opened and examined through Google Earth.
 # Data
+This image contains all of the networks using WEP as of 11/25/2015
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220051/91a6cf1a-b72b-11e5-8257-871cff9f63de.jpg)
-![promisechains]()
+
+This image contains all of the previous networks and newly explored areas as of 12/20/2015
+![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220052/93a39258-b72b-11e5-92e9-9162fb3d0c99.jpg)
 
 # How to upgrade to WPA2 
