@@ -5,7 +5,7 @@ Table of Contents:
 
 - What is Wardriving?
 
-- The Fault in my WEP?
+- The Fault in my WEP
 
 - Equipment Used
 
