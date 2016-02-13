@@ -46,7 +46,7 @@ WEP (Wired Equivalent Privacy) was introduced with the original release of the 8
   
 # Data Examples
 **This image contains all of the networks using WEP as of 11/25/2015**
-![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220052/93a39258-b72b-11e5-92e9-9162fb3d0c99.jpg)
+![promisechains](https://cloud.githubusercontent.com/assets/14082284/13029232/0f7a906e-d254-11e5-96d0-d5b91a343535.jpg)
 
 **This image contains all of the previous networks and newly explored areas as of 12/20/2015**
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/13029231/0f6c111a-d254-11e5-8212-387588f3a585.jpg)
