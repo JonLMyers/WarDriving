@@ -49,9 +49,9 @@ WEP (Wired Equivalent Privacy) was introduced with the original release of the 8
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220052/93a39258-b72b-11e5-92e9-9162fb3d0c99.jpg)
 
 **This image contains all of the previous networks and newly explored areas as of 12/20/2015**
-![promisechains](https://cloud.githubusercontent.com/assets/14082284/12220051/91a6cf1a-b72b-11e5-8257-871cff9f63de.jpg)
+![promisechains](https://cloud.githubusercontent.com/assets/14082284/13029231/0f6c111a-d254-11e5-8212-387588f3a585.jpg)
 
-**I have since removed the provided .kml and .kmz files to retain individuals anonymity.**
+**I have since removed the provided .kml and .kmz files to retain individual's anonymity.**
 
 # How to Upgrade Your Encryption Method 
 
