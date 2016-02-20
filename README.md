@@ -55,7 +55,7 @@ WEP (Wired Equivalent Privacy) was introduced with the original release of the 8
 
 # How to Upgrade Your Encryption Method 
 
-- Login to your router using a device that is directly wired to it. (Example: A laptop/desktop using an ethernet cord.) To get to the login page you need to type your routers default ip address(Typically 192.168.0.1 or 192.168.1.1) into your browser's search bar.
+- Login to your router using a device that is directly wired to it. (Example: A laptop/desktop using an ethernet cord.) To get to the login page you need to type your router's default ip address(Typically 192.168.0.1 or 192.168.1.1) into your browser's search bar.
 
 ![promisechains](https://cloud.githubusercontent.com/assets/14082284/12223756/786954c8-b7ad-11e5-93fa-c0aa55d61232.png)
 
