@@ -13,7 +13,7 @@ Table of Contents:
 
 - How to Upgrade Your Encryption Method
 
-## Legal Disclaimer
+## Disclaimer
 
 The information contained in this presentation is for educational purposes only.  Any contributers and I do not hold any responsibility or liability for any misuse of the information provided in the repository.
 
